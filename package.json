@@ -1,6 +1,6 @@
 {
   "name": "@digilent/linx-nodejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LINX javascript library",
   "main": "index.js",
   "scripts": {

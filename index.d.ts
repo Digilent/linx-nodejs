@@ -1,2 +1,3 @@
-export * from './dist/linx-device-manager/linx-device-manager';
+export * from './dist/linx-device/linx-device';
 export * from './dist/transports/http-transport';
+export * from './dist/transports/local-transport';

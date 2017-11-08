@@ -3,10 +3,9 @@ var LinxDevice = require('../dist/linx-device/linx-device.js').LinxDevice;
 
 describe('LinxDevice', function () {
 
-    let linxDevice = new LinxDevice('http://192.168.1.131');
+    let linxDevice = new LinxDevice('local');
 
     it('should be defined', () => {
-        console.log('hey');
         expect(linxDevice).toBeDefined();
     });
 

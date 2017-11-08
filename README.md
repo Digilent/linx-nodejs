@@ -1,14 +1,56 @@
-# Node Module Template
+# Linx Node.js
 
-1. Clone this repository.
-3. Run `npm install` 
-5. Run `node run build` to build the module.
-6. The browser module is built in **/bundle** and nodeJS module in **/dist**
+LINX library for Node.js
 
-## Subdirectories
-* **bundle**
-  * Contains the bundled module and any supporting files for use in the browser.
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+A valid LINX device
+Node.js
+NPM
+
+### Subdirectories
 * **dist**
-  * Contains the build module, the TS declaration file and any other support files.
+  * Contains the built files ready for release.
+* **docs**
+  * Contains built documentation from source.
+* **examples**
+  * Contains simple examples demonstrating how to use linx-nodejs.
+* **spec**
+  * Contains test files.
 * **src**
-  * Contains the module source code includes TS, CSS, etc.
+  * Contains the source files.
+
+### Installing
+
+Clone this repository
+
+```
+git clone https://git.digilentinc.com/dsukumar/linx-nodejs
+```
+
+Move to project directory
+
+```
+cd linx-nodejs
+```
+
+Install dependencies
+
+```
+npm install
+```
+
+Run an example
+
+```
+cd examples/local
+node local-example.js
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
