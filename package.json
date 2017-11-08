@@ -1,7 +1,7 @@
 {
   "name": "@digilent/linx-nodejs",
   "version": "0.0.2",
-  "description": "LINX javascript library",
+  "description": "LINX nodejs library",
   "main": "index.js",
   "scripts": {
     "test": "jasmine-node spec/core.js",
